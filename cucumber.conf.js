@@ -35,7 +35,8 @@ const cucumberHTMLReporter = () => {
       reportPath: 'reports/html',
       disableLog: true,
       automaticallyGenerateReport: true,
-      removeExistingJsonReportFile: true
+      removeExistingJsonReportFile: true,
+      displayDuration: true,
     }
   }
 };
