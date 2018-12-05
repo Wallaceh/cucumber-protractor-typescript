@@ -109,7 +109,7 @@
     "no-duplicate-imports": true,
     "no-empty": true,
     "variable-name": false,
-    "cyclomatic-complexity": [true, 10],
+    "cyclomatic-complexity": [true, 1],
 
     // tslint-clean-code
     "try-catch-first": true,
@@ -119,7 +119,11 @@
     "prefer-dry-conditionals": true,
     "no-complex-conditionals": true,
     "no-for-each-push": true,
-    "newspaper-order": true
+    "newspaper-order": true,
+    "id-length": true,
+    "no-map-without-usage": true
+//    "min-class-cohesion": true,
+//    "no-feature-envy": true,
   },
   "rulesDirectory": [
     "tslint-no-unused-expression-chai"
