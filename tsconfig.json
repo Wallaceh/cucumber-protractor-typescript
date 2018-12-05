@@ -12,10 +12,12 @@
     "sourceMap": true,
     "lib": [
       "es2015",
+      "es2016",
       "es6",
-      "es7"
+      "es7",
+      "dom"
     ],
-    "target": "es2016",
+    "target": "es6",
     "types": [
       "node",
       "mocha",
