@@ -1,5 +1,8 @@
 {
   "defaultSeverity": "error",
+  "extends": [
+    "tslint-clean-code"
+  ],
   "rules": {
     "triple-equals": [
       true,
@@ -106,7 +109,17 @@
     "no-duplicate-imports": true,
     "no-empty": true,
     "variable-name": false,
-    "no-unused-expression-chai": true
+    "cyclomatic-complexity": [true, 10],
+
+    // tslint-clean-code
+    "try-catch-first": true,
+    "max-func-args": [true, 3],
+    "no-flag-args": true,
+    "no-commented-out-code": true,
+    "prefer-dry-conditionals": true,
+    "no-complex-conditionals": true,
+    "no-for-each-push": true,
+    "newspaper-order": true
   },
   "rulesDirectory": [
     "tslint-no-unused-expression-chai"
